@@ -1,0 +1,26 @@
+// Algoritmo Simbolico 
+
+pegarBala{
+
+1-Pegar uma bala
+2-pegou bala?
+	Se (Passo 1 = Verdadeiro){
+		Retirar bala da embalagem
+		}Se não{volte para o passo 1
+	 }
+	Fim
+3-Colocar bala na boca
+	Se (Passo 3 = Falso){
+ 		volte ao passo 3
+	 }
+	Fim
+4-Jogar embalagem no lixo
+	Se (Passo 4 = Verdadeiiro){
+		Parabéns você esta ecologicamente correto!
+	 	}Se não{volte ao passo 4
+	 }
+	Fim
+Return bol;
+}
+		
+		
