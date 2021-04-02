@@ -1,0 +1,42 @@
+/*a intenção deste   algoritmo é alternar as frutas consumidas
+ao decorrer dos dias, de modo que nao se repitam. */
+
+Algoritmo: Dieta Seemanal
+
+int A, B, C;
+
+Selecione uma fruta:
+(1)Uva
+(2)Maçã
+(3)Laranja
+(4)Banana
+
+Leia: A
+
+Selecione mais uma fruta:
+(1)Uva
+(2)Maçã
+(3)Laranja
+(4)Banana
+
+Leia: B
+
+Selecione a ultima fruta:
+(1)Uva
+(2)Maçã
+(3)Laranja
+(4)Banana
+
+Leia: C
+
+Se(A e B = C){
+	saida "comer" A
+	}Se não Se(C e B <A){
+	saida "comer" B
+	}Se não Se(C <A e B){
+	saida "comer" C
+	Senão{
+	saida "Sua dieta terminou"}
+
+Rerutn 0; 
+
